@@ -1,7 +1,7 @@
 
 # Blog Project
 
-A dynamic blog built with Next.js and TypeScript, providing a robust platform for content management and blogging.
+A dynamic blog built with Next.js and TypeScript, Material UI, Jest, etc
 
 ## Features
 
