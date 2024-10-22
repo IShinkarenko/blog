@@ -80,7 +80,7 @@ export const getMetadata: GetMetadata = ({
       type: 'website'
     },
     bookmarks: canonicalUrl,
-    metadataBase: '',
+    metadataBase: new URL(''),
     other: {
       'article:modified_time': createdAt,
       'article:published_time': updatedAt

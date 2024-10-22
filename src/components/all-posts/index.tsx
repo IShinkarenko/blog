@@ -9,6 +9,7 @@ import { getAllPosts } from '@/lib/post-utils'
 
 interface AllPostsProps {
   postsData: ReturnType<typeof getAllPosts>
+  title?: string
 }
 
 export default function AllPosts({ postsData }: AllPostsProps) {
