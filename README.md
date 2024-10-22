@@ -1,7 +1,7 @@
 
 # Blog Project
 
-A dynamic blog built with Next.js and TypeScript, Material UI, Jest, etc
+A dynamic blog built with Next.js and TypeScript, Material UI, Jest, React Hook Form and Zod for validation
 
 ## Features
 
