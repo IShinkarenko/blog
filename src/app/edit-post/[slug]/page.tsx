@@ -1,6 +1,10 @@
-import { AddEditPost } from '@/components'
 import type { ServerSideComponentProps } from '@/common-types/types'
 import { getAllTags, getSinglePost } from '@/lib/post-utils'
+
+import dynamic from 'next/dynamic'
+const AddEditPost = dynamic(() => import('../../../components/add-edit-post'), {
+  ssr: false
+})
 
 type EditPostPageProps = ServerSideComponentProps<{ slug: string }>
 
