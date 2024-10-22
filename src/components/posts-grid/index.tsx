@@ -17,7 +17,7 @@ export default function PostsGrid({ posts, variant }: PostsGridProps) {
       columns={{ xs: 4, sm: 8, md: 12 }}
     >
       {posts.map(post => (
-        <Grid item xs={2} sm={4} md={3} key={post.slug}>
+        <Grid item xs={6} sm={4} md={4} lg={3} key={post.slug}>
           <PostItem key={post.slug} post={post} variant={variant} />
         </Grid>
       ))}

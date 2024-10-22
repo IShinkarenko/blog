@@ -24,7 +24,14 @@ export default function PostContent({
   return (
     <Paper
       elevation={0}
-      sx={{ padding: '30px 50px', borderRadius: 2, marginBottom: 4 }}
+      sx={{
+        padding: {
+          xs: 2,
+          sm: 4
+        },
+        borderRadius: 2,
+        marginBottom: 4
+      }}
     >
       <article>
         <PostHeader
